@@ -15,13 +15,14 @@
 
     <!-- File Appender -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>logs/app.log</file>
+        <file>logs/${APP_NAME}.log</file>
         <encoder>
             <pattern>
-                %d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %-5level [%cyan(${APP_NAME})] [%magenta(%thread)] %green(%logger{40}:%line) : %msg%n
+                %d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %-5level [${APP_NAME}] [%thread] %logger{40}:%line : %msg%n
             </pattern>
         </encoder>
     </appender>
+
 
     <!-- Root logger -->
     <root level="INFO">
