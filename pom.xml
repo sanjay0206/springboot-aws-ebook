@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.aws.spring</groupId>
-    <artifactId>ebook</artifactId>
+    <artifactId>springboot-aws-ebook</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ebook</name>
     <description>Spring Boot project for AWS-based eBook service</description>
