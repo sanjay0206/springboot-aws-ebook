@@ -22,10 +22,11 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class S3FileServiceImpl implements S3FileService {
+
     private final S3Presigner s3Presigner = S3Presigner.create();
     private final S3Client s3Client;
-    @Value("${aws.s3.bucket-name}")
 
+    @Value("${aws.s3.bucket-name}")
     private String bucketName;
 
     @Override
@@ -53,7 +54,6 @@ public class S3FileServiceImpl implements S3FileService {
 
         return s3Client.getObject(request);
     }
-
 
     @Override
     public S3ObjectDetails uploadFileToS3(String bucketName,
@@ -87,7 +87,6 @@ public class S3FileServiceImpl implements S3FileService {
         // Return the details in an S3ObjectDetails object
         return new S3ObjectDetails(objectName, objectUrl, key, contentType, contentLength, lastModified);
     }
-
 
     @Override
     public void deleteFileFromS3(String bucketName, String key) {

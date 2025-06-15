@@ -1,0 +1,295 @@
+2025-06-01T21:19:25.420+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 15436 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:19:25.430+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:19:27.973+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:19:27.986+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:19:27.989+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:19:27.990+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:19:28.156+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:19:28.158+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2585 ms
+2025-06-01T21:19:30.823+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:19:30.860+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:19:30.889+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 6.677 seconds (process running for 7.664)
+2025-06-01T21:19:52.379+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:20:12.668+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:20:33.040+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:20:53.326+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:21:13.615+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:21:33.913+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:21:34.663+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:21:34.710+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:21:54.198+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:21:59.718+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 1892 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:21:59.731+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:22:02.385+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:22:02.398+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:22:02.401+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:22:02.401+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:22:02.522+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:22:02.525+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2638 ms
+2025-06-01T21:22:05.319+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:22:05.392+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:22:05.434+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 6.906 seconds (process running for 7.857)
+2025-06-01T21:22:27.021+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:22:47.310+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:23:07.590+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:23:27.883+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:23:48.170+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:24:08.451+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:24:28.768+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:24:28.966+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:24:29.014+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:24:49.053+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:25:03.468+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 7144 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:25:03.475+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:25:06.479+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:25:06.512+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:25:06.517+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:25:06.518+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:25:06.711+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:25:06.716+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 3079 ms
+2025-06-01T21:25:09.587+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:25:09.623+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:25:09.648+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 7.555 seconds (process running for 9.116)
+2025-06-01T21:25:31.066+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:25:51.356+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:26:11.653+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:26:31.952+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:26:52.232+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:27:12.511+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:27:32.803+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:27:45.495+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:27:45.541+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:27:53.098+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:28:21.435+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 12584 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:28:21.452+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:28:24.018+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:28:24.035+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:28:24.038+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:28:24.039+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:28:24.199+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:28:24.203+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2615 ms
+2025-06-01T21:28:27.251+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:28:27.302+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:28:27.341+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 7.179 seconds (process running for 8.145)
+2025-06-01T21:28:48.810+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:29:09.101+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:29:29.368+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:29:49.652+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:30:09.920+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:30:30.192+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:30:50.463+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:31:10.736+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:31:31.052+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:31:51.318+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:32:03.168+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:32:03.222+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:32:11.593+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:35:24.483+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 16920 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:35:24.499+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:35:27.326+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:35:27.343+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:35:27.346+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:35:27.347+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:35:27.521+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:35:27.524+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2842 ms
+2025-06-01T21:35:30.154+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:35:30.188+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:35:30.222+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 6.948 seconds (process running for 7.901)
+2025-06-01T21:35:51.708+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:36:11.979+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:36:32.240+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:36:52.516+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:37:12.790+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:37:15.713+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:37:15.762+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:37:33.050+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:37:54.085+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 12628 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:37:54.089+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:37:56.096+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:37:56.114+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:37:56.118+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:37:56.118+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:37:56.247+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:37:56.249+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2081 ms
+2025-06-01T21:37:58.362+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:37:58.398+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:37:58.416+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 5.122 seconds (process running for 6.004)
+2025-06-01T21:38:19.782+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:38:31.216+05:30 INFO  [ebook-app] [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:38:31.216+05:30 INFO  [ebook-app] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:38:31.218+05:30 INFO  [ebook-app] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 2 ms
+2025-06-01T21:38:40.068+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:39:00.404+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:39:20.742+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:39:41.070+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:40:01.392+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:40:18.545+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:40:18.592+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:40:21.689+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:41:06.667+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 8516 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:41:06.673+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:41:08.636+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:41:08.651+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:41:08.656+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:41:08.657+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:41:08.798+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:41:08.800+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2020 ms
+2025-06-01T21:41:11.129+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:41:11.161+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:41:11.179+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 5.348 seconds (process running for 5.956)
+2025-06-01T21:41:27.797+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:41:27.797+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:41:27.798+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 1 ms
+2025-06-01T21:41:32.666+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:41:52.963+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:42:13.249+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:42:33.536+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:42:45.783+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:42:45.835+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:42:53.826+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:43:11.217+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 16964 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:43:11.222+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:43:13.140+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:43:13.154+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:43:13.157+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:43:13.158+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:43:13.263+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:43:13.265+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 1940 ms
+2025-06-01T21:43:15.324+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:43:15.352+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:43:15.370+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 4.967 seconds (process running for 5.565)
+2025-06-01T21:43:33.820+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:43:33.820+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:43:33.822+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 1 ms
+2025-06-01T21:43:36.673+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:43:50.678+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:43:50.725+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:43:57.006+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:43:59.665+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 6612 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:43:59.672+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:44:01.550+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:44:01.563+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:44:01.566+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:44:01.566+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:44:01.688+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:44:01.690+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 1921 ms
+2025-06-01T21:44:03.762+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:44:03.787+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/'
+2025-06-01T21:44:03.806+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 4.953 seconds (process running for 5.502)
+2025-06-01T21:44:06.188+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:44:06.189+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:44:06.190+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 1 ms
+2025-06-01T21:44:25.099+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:44:45.370+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:45:05.679+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:45:12.555+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:45:12.601+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:45:25.969+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:45:28.732+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 3516 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:45:28.737+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:45:30.574+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:45:30.587+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:45:30.590+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:45:30.590+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:45:30.710+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:45:30.712+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 1879 ms
+2025-06-01T21:45:32.994+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:45:33.022+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:45:33.040+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 5.191 seconds (process running for 5.789)
+2025-06-01T21:45:49.531+05:30 INFO  [ebook-app] [http-nio-8080-exec-5] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:45:49.532+05:30 INFO  [ebook-app] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:45:49.533+05:30 INFO  [ebook-app] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 1 ms
+2025-06-01T21:45:54.332+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:46:13.931+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:46:13.977+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:46:14.605+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:46:17.298+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 432 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:46:17.303+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:46:18.986+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:46:19.003+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:46:19.007+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:46:19.008+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:46:19.115+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:46:19.117+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 1731 ms
+2025-06-01T21:46:21.018+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:46:21.044+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:46:21.064+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 4.541 seconds (process running for 5.102)
+2025-06-01T21:46:28.562+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:46:28.562+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:46:28.564+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 2 ms
+2025-06-01T21:46:42.372+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:47:02.645+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:47:22.914+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:47:26.077+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:47:26.122+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:48:09.508+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 4020 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:48:09.515+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:48:11.676+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:48:11.696+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:48:11.702+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:48:11.703+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:48:11.848+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:48:11.850+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2217 ms
+2025-06-01T21:48:14.096+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:48:14.128+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:48:14.146+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 5.496 seconds (process running for 6.173)
+2025-06-01T21:48:21.340+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:48:21.340+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:48:21.342+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 0 ms
+2025-06-01T21:48:21.969+05:30 INFO  [ebook-app] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource:409 : Init duration for springdoc-openapi is: 366 ms
+2025-06-01T21:48:35.580+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:48:41.776+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:48:41.825+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:49:23.536+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 16788 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:49:23.541+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:49:25.552+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:49:25.566+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:49:25.569+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:49:25.570+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:49:25.681+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:49:25.683+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 2037 ms
+2025-06-01T21:49:27.735+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:49:27.767+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:49:27.783+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 5.163 seconds (process running for 6.121)
+2025-06-01T21:49:33.342+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:49:33.343+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:49:33.344+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 1 ms
+2025-06-01T21:49:34.028+05:30 INFO  [ebook-app] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource:409 : Init duration for springdoc-openapi is: 432 ms
+2025-06-01T21:49:35.214+05:30 DEBUG [ebook-app] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource:413 : Fetching openApi document from cache
+2025-06-01T21:49:36.220+05:30 DEBUG [ebook-app] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource:413 : Fetching openApi document from cache
+2025-06-01T21:49:49.043+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:50:09.311+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:50:29.578+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:50:49.845+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:51:10.137+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:51:30.418+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:51:38.462+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:51:38.510+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:51:50.685+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:51:56.576+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:53 : Starting EbookApplication using Java 17.0.11 with PID 15208 (C:\Users\sanja\sts-workplace\springboot-aws-ebook\target\classes started by sanja in C:\Users\sanja\sts-workplace\springboot-aws-ebook)
+2025-06-01T21:51:56.580+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:652 : No active profile set, falling back to 1 default profile: "default"
+2025-06-01T21:51:58.349+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:111 : Tomcat initialized with port 8080 (http)
+2025-06-01T21:51:58.363+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:51:58.367+05:30 INFO  [ebook-app] [main] o.apache.catalina.core.StandardService:173 : Starting service [Tomcat]
+2025-06-01T21:51:58.367+05:30 INFO  [ebook-app] [main] org.apache.catalina.core.StandardEngine:173 : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-01T21:51:58.468+05:30 INFO  [ebook-app] [main] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring embedded WebApplicationContext
+2025-06-01T21:51:58.471+05:30 INFO  [ebook-app] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 : Root WebApplicationContext: initialization completed in 1791 ms
+2025-06-01T21:52:00.534+05:30 INFO  [ebook-app] [main] o.apache.coyote.http11.Http11NioProtocol:173 : Starting ProtocolHandler ["http-nio-8080"]
+2025-06-01T21:52:00.564+05:30 INFO  [ebook-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer:243 : Tomcat started on port 8080 (http) with context path '/ebookservice'
+2025-06-01T21:52:00.581+05:30 INFO  [ebook-app] [main] com.aws.spring.ebook.EbookApplication:59 : Started EbookApplication in 4.785 seconds (process running for 5.365)
+2025-06-01T21:52:10.043+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebookservice]:173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-01T21:52:10.044+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:532 : Initializing Servlet 'dispatcherServlet'
+2025-06-01T21:52:10.046+05:30 INFO  [ebook-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet:554 : Completed initialization in 2 ms
+2025-06-01T21:52:10.691+05:30 INFO  [ebook-app] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource:409 : Init duration for springdoc-openapi is: 316 ms
+2025-06-01T21:52:21.879+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:52:42.200+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:53:02.488+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:53:22.767+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:53:32.710+05:30 INFO  [ebook-app] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource:409 : Init duration for springdoc-openapi is: 76 ms
+2025-06-01T21:53:37.095+05:30 INFO  [ebook-app] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource:409 : Init duration for springdoc-openapi is: 80 ms
+2025-06-01T21:53:40.155+05:30 DEBUG [ebook-app] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource:413 : Fetching openApi document from cache
+2025-06-01T21:53:43.052+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:54:03.338+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
+2025-06-01T21:54:04.782+05:30 INFO  [ebook-app] [SpringApplicationShutdownHook] o.s.b.w.embedded.tomcat.GracefulShutdown:54 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-01T21:54:04.828+05:30 INFO  [ebook-app] [tomcat-shutdown] o.s.b.w.embedded.tomcat.GracefulShutdown:76 : Graceful shutdown complete
+2025-06-01T21:54:23.618+05:30 INFO  [ebook-app] [scheduling-1] c.a.s.e.service.impl.SqsConsumerService:39 : Received 0 messages from SQS queue
